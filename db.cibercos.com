@@ -8,6 +8,6 @@ $TTL    604800
 
 ; Registros
 @       IN      NS      ns.cibercos.com.
-ns      IN      A       <IP_DEL_SERVIDOR>
-@       IN      A       <IP_DEL_SERVIDOR>
+ns      IN      A       10.10.10.18
+@       IN      A       10.10.10.18
 www     IN      CNAME   cibercos.com.
