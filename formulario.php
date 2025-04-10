@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head><title>Formulario</title></head>
+<head><title>Login</title></head>
 <body>
-    <h2>Introduce tus datos</h2>
+    <h2>Inicia sesión</h2>
     <form action="procesar.php" method="GET">
-        Nombre: <input type="text" name="nombre"><br>
-        Edad: <input type="number" name="edad"><br>
-        <input type="submit" value="Enviar">
+        Usuario: <input type="text" name="usuario"><br>
+        Contraseña: <input type="password" name="password"><br>
+        <input type="submit" value="Entrar">
     </form>
 </body>
 </html>
